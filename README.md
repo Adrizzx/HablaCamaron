@@ -171,7 +171,7 @@ Este repositorio publica el **código fuente, las pruebas y la documentación t�
 
 | Integrante | Rol |
 |---|---|
-| **Marco Adrián Padilla Triviño** ([@Adrizzx](https://github.com/Adrizzx)) | Desarrollo (autor principal del código) |
+| **Marco Adrian Padilla Triviño** ([@Adrizzx](https://github.com/Adrizzx)) | Desarrollo (autor principal del código) |
 | Juan Mateo Iza Barrionuevo | Desarrollo |
 | Eduardo García | Desarrollo |
 
