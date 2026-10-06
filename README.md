@@ -1,16 +1,16 @@
 <div align="center">
 
-# 🚗 ¡Habla, Camarón!
+# ¡Habla, Camarón!
 
 ### Simulador educativo de conducción manual ambientado en Quito, Ecuador
 
 [![Unity](https://img.shields.io/badge/Unity-6000.3%20LTS-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com/)
 [![C#](https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
 [![URP](https://img.shields.io/badge/Render-URP-2C7BB6?style=for-the-badge)](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest)
-[![Tests](https://img.shields.io/badge/tests-440%2B%20NUnit-2EA44F?style=for-the-badge)](#-pruebas-automatizadas)
+[![Tests](https://img.shields.io/badge/tests-440%2B%20NUnit-2EA44F?style=for-the-badge)](#pruebas-automatizadas)
 [![Plataforma](https://img.shields.io/badge/Windows-x64-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Adrizzx/HablaCamaron/releases/latest)
 
-**[⬇️ Descargar el juego (Windows)](https://github.com/Adrizzx/HablaCamaron/releases/latest)** · [Arquitectura](#-arquitectura) · [IA: A* + FSM](#-inteligencia-artificial-a--fsm) · [Pruebas](#-pruebas-automatizadas)
+**[Descargar el juego (Windows)](https://github.com/Adrizzx/HablaCamaron/releases/latest)** · [Arquitectura](#arquitectura) · [IA: A* + FSM](#inteligencia-artificial-a--fsm) · [Pruebas](#pruebas-automatizadas)
 
 <img src="media/cabina_aveo.jpg" alt="Vista desde la cabina del Chevrolet Aveo" width="85%">
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 📖 Sobre el proyecto
+## Sobre el proyecto
 
 **¡Habla, Camarón!** es un videojuego serio en primera persona que enseña a manejar un auto **con caja manual** en las calles de Quito. El jugador es "Camarón", un joven que aprende a conducir el Aveo de su papá con **Don Pancho** como instructor, para llegar a tiempo al concierto con **Mishel**.
 
@@ -26,19 +26,19 @@ El foco del proyecto es la **simulación realista del embrague** (punto de fricc
 
 > Proyecto desarrollado en la asignatura **Desarrollo de Videojuegos** de la carrera de Ingeniería de Software, **Universidad de las Fuerzas Armadas ESPE** (2026).
 
-## ✨ Características principales
+## Características principales
 
 | Área | Qué hace |
 |---|---|
-| 🛞 **Física del vehículo** | Motor simulado por RPM, embrague con punto de fricción y calado, caja 5 + R protegida, freno de mano, dirección sensible a la velocidad. Datos por vehículo en `ScriptableObject` (Aveo y BT-50). |
-| 🧠 **IA de tránsito** | Navegación con **A\*** sobre un grafo dirigido de calles y comportamiento con una **máquina de estados finitos** (crucero, seguir, frenar, ceder, doble fila). Personalidades: taxista, buseta, particular. |
-| 🏙️ **Mundo** | Zonas de Quito (Quitumbe/Guamaní, Av. Simón Bolívar, corredor Centro → La Carolina), semáforos con ciclo real, señalética ecuatoriana generada por código. |
-| 🎯 **Misiones y evaluación** | 8 niveles progresivos con jueces de infracciones (semáforo en rojo, carril, direccionales, pasos cebra) y puntaje de 0 a 100 en 6 criterios. |
-| 🗣️ **Instructor en vivo** | Don Pancho reacciona a los eventos del auto (calado, rechinido de caja, buen arranque) y un tutor guía el ritual de arranque paso a paso. |
-| 🖥️ **UI 100 % por código** | 13 pantallas uGUI construidas desde C# con un sistema de tema centralizado (`UITheme` + `UIFactory`). |
-| 🔊 **Audio procedural** | Sonido del motor sintetizado según RPM y efectos de cambio, calado y freno de mano. |
+| **Física del vehículo** | Motor simulado por RPM, embrague con punto de fricción y calado, caja 5 + R protegida, freno de mano, dirección sensible a la velocidad. Datos por vehículo en `ScriptableObject` (Aveo y BT-50). |
+| **IA de tránsito** | Navegación con **A\*** sobre un grafo dirigido de calles y comportamiento con una **máquina de estados finitos** (crucero, seguir, frenar, ceder, doble fila). Personalidades: taxista, buseta, particular. |
+| **Mundo** | Zonas de Quito (Quitumbe/Guamaní, Av. Simón Bolívar, corredor Centro → La Carolina), semáforos con ciclo real, señalética ecuatoriana generada por código. |
+| **Misiones y evaluación** | 8 niveles progresivos con jueces de infracciones (semáforo en rojo, carril, direccionales, pasos cebra) y puntaje de 0 a 100 en 6 criterios. |
+| **Instructor en vivo** | Don Pancho reacciona a los eventos del auto (calado, rechinido de caja, buen arranque) y un tutor guía el ritual de arranque paso a paso. |
+| **UI 100 % por código** | 13 pantallas uGUI construidas desde C# con un sistema de tema centralizado (`UITheme` + `UIFactory`). |
+| **Audio procedural** | Sonido del motor sintetizado según RPM y efectos de cambio, calado y freno de mano. |
 
-## 🎮 Capturas
+## Capturas
 
 <table>
   <tr>
@@ -75,7 +75,7 @@ El foco del proyecto es la **simulación realista del embrague** (punto de fricc
   <br><sub>Personajes y vehículos: Don Pancho, Mishel, Chevrolet Aveo y Mazda BT-50</sub>
 </div>
 
-## 🗺️ Niveles
+## Niveles
 
 | # | Misión | Habilidad que se evalúa |
 |---|---|---|
@@ -88,7 +88,7 @@ El foco del proyecto es la **simulación realista del embrague** (punto de fricc
 | 7 | ¡Habla, Camarón! | Examen final con tiempo; dos finales posibles |
 | 8 | Quito entero | Recorrido libre por la ciudad completa |
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 El código está organizado por **namespaces y assemblies** independientes, con datos separados de la lógica y comunicación por **eventos C#** (sin dependencias cruzadas por *polling*).
 
@@ -112,7 +112,7 @@ Assets/Tests
 - **Escenas generadas por código:** las herramientas de editor construyen la ciudad, las calles y los semáforos de forma reproducible.
 - **Eventos en lugar de referencias directas:** el auto emite `OnStalled`, `OnGearGrind`, etc., y el HUD, Don Pancho y el puntaje se suscriben.
 
-## 🧠 Inteligencia artificial: A* + FSM
+## Inteligencia artificial: A* + FSM
 
 <img src="media/zonasur_redondel.jpg" alt="Grafo de calles en el redondel de la Zona Sur" align="right" width="40%">
 
@@ -128,11 +128,11 @@ Assets/Tests
 - Un solo cerebro genérico + perfiles de personalidad (`DriverProfile`) generan conductas distintas sin duplicar código.
 - Overlay de depuración en vivo con la tecla **F9**.
 
-📄 Documento técnico completo: [`docs/PRESENTACION_IA.md`](docs/PRESENTACION_IA.md)
+ Documento técnico completo: [`docs/PRESENTACION_IA.md`](docs/PRESENTACION_IA.md)
 
 <br clear="right">
 
-## 🧪 Pruebas automatizadas
+## Pruebas automatizadas
 
 El proyecto sigue una regla estricta: **toda lógica nueva entra con sus pruebas en el mismo commit**.
 
@@ -145,7 +145,7 @@ Unity.exe -batchmode -projectPath <ruta> -runTests -testPlatform EditMode -testR
 Unity.exe -batchmode -projectPath <ruta> -runTests -testPlatform PlayMode -testResults Logs/tests-playmode.xml
 ```
 
-## 🕹️ Controles
+## Controles
 
 | Tecla | Acción | Tecla | Acción |
 |---|---|---|---|
@@ -158,16 +158,16 @@ Unity.exe -batchmode -projectPath <ruta> -runTests -testPlatform PlayMode -testR
 
 > **Ritual de arranque:** `Shift` → `F` → `1` → un poco de acelerador → soltar `Shift` despacio. Soltarlo de golpe cala el motor, y esa es justamente la lección.
 
-## 🚀 Cómo jugarlo
+## Cómo jugarlo
 
 1. Descarga el `.zip` de la [última versión](https://github.com/Adrizzx/HablaCamaron/releases/latest).
 2. Descomprime y ejecuta `HablaCamaron.exe` (Windows 10/11, 64 bits).
 
-## 📂 Sobre este repositorio
+## Sobre este repositorio
 
 Este repositorio publica el **código fuente, las pruebas y la documentación técnica** del juego. Los modelos 3D de la ciudad provienen del paquete comercial *Toon City* (Unity Asset Store), cuya licencia no permite redistribuir sus archivos fuente, por eso no se incluyen aquí. El desarrollo completo se lleva en un repositorio privado del equipo.
 
-## 👥 Equipo
+## Equipo
 
 | Integrante | Rol |
 |---|---|
