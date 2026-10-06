@@ -1,0 +1,19 @@
+{
+    "name": "HablaCamaron.Editor",
+    "rootNamespace": "HablaCamaron",
+    "references": [
+        "HablaCamaron",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
